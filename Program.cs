@@ -6,6 +6,7 @@ namespace homework
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Задание № 1");
             Console.WriteLine("Введите первое число: ");
             int num_1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите второе число: ");
@@ -22,5 +23,7 @@ namespace homework
                 Console.WriteLine("Два числа равны.");
             }
         }
+
+
     }
 }
